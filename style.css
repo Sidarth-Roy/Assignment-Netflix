@@ -1,0 +1,486 @@
+/* Header */
+.header {
+    max-width: 100%;
+    padding: 2% 3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+    border-bottom: 9px solid rgb(55, 55, 55);
+}
+
+#logo {
+    float: right;
+    width: 40%;
+}
+
+/* Drop down menu for language */
+.dropbtn {
+    background-color: #3f3e3e79;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 8%;
+    margin: 0 1rem;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 6rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+#sign-in {
+    background-color: #ff0101e2;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8%;
+}
+
+.nbl {
+    padding-left: 10%;
+}
+
+.nbr {
+    padding-right: 8%;
+    display: flex;
+    justify-content: end;
+}
+
+#down-icon {
+    width: 10%;
+}
+
+
+#himg {
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+.div1 {
+    text-align: center;
+    padding: 10% 15%;
+    height: 80vh;
+}
+
+#p1 {
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+#p2 {
+    font-size: 2rem;
+}
+
+#p3 {
+    font-size: 1.5rem;
+}
+
+#EmailAdd {
+    width: 50%;
+    padding: 1.5%;
+    border: 1px solid #3b3939;
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+#get-start {
+    background-color: #ff0101e2;
+    color: white;
+    padding: 1.5%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .header {
+        padding: 5%;
+    }
+
+    #logo {
+        width: 99%;
+        height: 90%;
+    }
+
+    .dropbtn {
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+
+    .dropdown-content {
+        min-width: 4rem;
+    }
+
+    .dropdown-content a {
+        padding: 0.5rem;
+    }
+
+    #sign-in {
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 8%;
+    }
+
+    .div1 {
+        padding: 16% 15%;
+    }
+
+    #p1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    #p2 {
+        font-size: 1.2rem;
+    }
+
+    #p3 {
+        font-size: 1rem;
+    }
+
+    #EmailAdd {
+        width: 100%;
+        padding: 3%;
+        font-size: 1rem;
+    }
+
+    #get-start {
+        padding: 3% 5%;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
+
+.d1 {
+    color: #ffffff;
+    background-color: black;
+    max-width: 100%;
+    border-bottom: 9px solid rgb(55, 55, 55);
+    /* height: 70vh; */
+    z-index: 0;
+}
+
+#pd11 {
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+#pd12 {
+    font-size: 2rem;
+}
+
+.cd1l {
+    padding: 10%;
+}
+
+.cd12 {
+    position: relative;
+}
+
+#tv-static {
+    width: 100%;
+    height: 80%;
+    z-index: 4;
+    position: relative;
+}
+
+#tv-vid {
+    width: 70.7%;
+    height: 60%;
+    position: absolute;
+    top: 60px;
+    left: 14%;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .d1 {
+        text-align: center;
+    }
+
+    #pd11 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #pd12 {
+        font-size: 1.2rem;
+    }
+
+    #tv-vid {
+        width: 70%;
+        height: 80%;
+        top: -20px;
+        left: 62px;
+    }
+
+}
+
+
+
+#mobile {
+    padding: 15%;
+}
+
+@media only screen and (max-width: 425px) {
+    #mobile {
+        padding: 0;
+        height: 100%;
+        width: 75%;
+    }
+}
+
+
+#tv-vid-2 {
+    width: 60%;
+    height: 46%;
+    position: absolute;
+    top: 33px;
+    left: 20%;
+    z-index: 1;
+}
+
+
+
+
+
+
+.d2 {
+    background-color: black;
+    border-bottom: 9px solid rgb(55, 55, 55);
+}
+
+.accordion {
+    background-color: rgb(25, 24, 24);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    padding-right: 35px !important;
+    width: 80% !important;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+    margin: 8px 10%;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    margin: 3px 10%;
+    margin-top: -7px !important;
+    width: 80% !important;
+    margin-bottom: 5px;
+    font-size: 24px;
+
+}
+
+.accordion:after {
+    content: "\002B";
+    font-size: 24px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\00D7";
+    font-size: 24px;
+}
+
+#acc-sh {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+
+#d2pl {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.div22 {
+
+    padding: 0 0% 2% 30%;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .div22 {
+        padding: 0 10% 2% 10%;
+        align-items: center;
+        margin: 4% 0;
+    }
+
+    .div22 #get-start {
+        margin-left: 30%;
+    }
+}
+
+
+
+.footerbg {
+    background-color: black;
+    padding: 70px 10%;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerbg a {
+    color: gray;
+}
+
+.footerbg li {
+    list-style: none;
+    line-height: 40px !important;
+}
+
+
+
+
+@media only screen and (max-width: 376px) {
+
+    #logo {
+        width: 80%;
+        height: 100%;
+    }
+
+    .dropbtn {
+        padding: 0.2rem;
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+
+    #sign-in {
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+
+    .div1 {
+        padding: 10% 10%;
+    }
+
+    #p1 {
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+
+    #acc-sh {
+        font-size: 2.5rem;
+        /* font-weight: 700; */
+    }
+
+    #d2pl {
+        font-size: 1.2rem;
+        padding: 5% 5%;
+        margin: 0;
+    }
+
+    .div22 {
+        padding: 0 5% 0% 5%;
+        margin: 0 0 10% 0;
+    }
+
+    .panel {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 321px) {
+    .accordion {
+        font-size: 24px;
+    }
+
+    #logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    #sign-in {
+        /* padding: 0.5rem 0.5rem; */
+        font-size: 1rem;
+    }
+    .nbr{
+        padding-right: 2px;
+    }
+
+    #p1{
+        font-size: 2rem;
+    }
+    .div1{
+        padding: 15% 2%;
+    }
+    .header{
+        padding-top: 8%;
+    }
+    #pd11{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
